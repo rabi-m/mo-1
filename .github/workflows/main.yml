@@ -27,4 +27,4 @@ jobs:
 
       # الخطوة 4: رفع الصورة إلى Docker Hub
       - name: Push Docker Image
-        run: docker push capital861@gmail.com/docker-github-integration:latest .
+        run: docker push capital861/docker-github-integration:latest .
