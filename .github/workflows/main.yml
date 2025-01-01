@@ -23,8 +23,8 @@ jobs:
 
       # الخطوة 3: بناء الصورة
       - name: Build Docker Image
-        run: docker build -t capital861@gmail.com/docker-github-integration:latest .
+        run: docker build -t username/docker-github-integration:latest .
 
       # الخطوة 4: رفع الصورة إلى Docker Hub
       - name: Push Docker Image
-        run: docker push capital861@gmail.com/docker-github-integration:latest
+        run: docker push username/docker-github-integration:latest .
