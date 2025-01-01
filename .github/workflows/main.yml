@@ -27,5 +27,5 @@ jobs:
 
       # الخطوة 4: رفع الصورة إلى Docker Hub
       - name: Push Docker Image
-        run: docker push username/docker-github-integration:latest .
+        run: docker push username/docker-github-integration:latest
         
